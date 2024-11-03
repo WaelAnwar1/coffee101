@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Coffee Shop</title>
+</head>
+<body>
+    
+    <!-- Navbar | start -->
+    <nav class="nav">
+        <ion-icon class="burger-btn" name="grid-outline"></ion-icon>
+        <h2 class="logo">BRAND.</h2>
+        <div class="nav-menus">
+            <a href="#home">Home</a>
+            <a href="#products">Menu</a>
+            <a href="about">About</a>
+            <a href="#testimonial">Testimoni</a>
+        </div>
+        <div class="nav-right">
+            <ion-icon name="search-outline"></ion-icon>
+            <ion-icon name="cart-outline"></ion-icon>
+        </div>
+    </nav>
+    <!-- Navbar | end  -->
+
+
+
+
+    <!-- HEADER | start -->
+    <Header>
+        <div class="header-top">
+                <div class="top-left">
+                    <h1><span>Perfect</span> Time for <br>
+                        Perfect <span>Coffee</span></h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Accusamus aspernatur iusto unde saepe quod suscipit nihil, 
+                            voluptatum quasi et. Dignissimos ad asperiores sequi eaque 
+                            molestiae dicta sunt adipisci. Maiores quasi consectetur 
+                            debitis odio deserunt. Ipsa nisi animi aliquid!
+                        </p>
+                        <button class="header-btn">See Our Menu</button>
+                </div>
+
+                <div class="top-right">
+                    <img src="images/hero2.jpg">
+                </div>
+            </div>
+
+            
+            <div class="header-bottom">
+                <div class="header-detail">
+                    <h2>30+</h2>
+                    <p>Menus</p>
+                </div>
+
+                <div class="header-detail">
+                    <h2>3,800+</h2>
+                    <p>Daily Orders</p>
+                </div>
+
+                <div class="header-detail">
+                    <h2>223+</h2>
+                    <p>Brnach Stores</p>
+                </div>
+            </div>
+    </header>
+    <!-- HEADER | end -->
+
+
+
+
+    <!-- Products | start -->
+    <section class="product" id="product">
+        <h2 class="title">Best Products In Market</h2>
+        <div class="product-filter">
+            <button class="btn-filter" data-filter="*">All</button>
+            <button class="btn-filter" data-filter=".coffee">Coffee</button>
+            <button class="btn-filter" data-filter=".non-coffee">Non Coffee</button>
+            <button class="btn-filter" data-filter=".cakes">Cakes</button>
+        </div>
+        <div class="product-list" data-ref="product-list">
+
+            <div class="product-card coffee" data-order="1">
+                <div class="product-image">
+                    <img src="images/coffee-01.png">
+                </div>
+
+                <div class="product-detail">
+                    <h4>Frappe</h4>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                    <div class="product-price">
+                        <p>$13.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card non-coffee" data-order="2">
+                <div class="product-image">
+                    <img src="images/coffee-02.png">
+                </div>
+
+                <div class="product-detail">
+                    <h4>Fresh Mint Tea</h4>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                    <div class="product-price">
+                        <p>$23.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card cakes" data-order="3">
+                <div class="product-image">
+                    <img src="images/coffee-03.png">
+                </div>
+
+                <div class="product-detail">
+                    <h4>Bon Cake</h4>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                    <div class="product-price">
+                        <p>$32.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card cakes" data-order="4">
+                <div class="product-image">
+                    <img src="images/coffee-04.png">
+                </div>
+
+                <div class="product-detail">
+                    <h4>Choclatte Cake</h4>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                    <div class="product-price">
+                        <p>$27.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card non-coffee" data-order="5">
+                <div class="product-image">
+                    <img src="images/coffee-05.png">
+                </div>
+
+                <div class="product-detail">
+                    <h4>Turkey Coffee</h4>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                    <div class="product-price">
+                        <p>$17.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card cakes" data-order="6">
+                <div class="product-image">
+                    <img src="images/coffee-06.png">
+                </div>
+
+                <div class="product-detail">
+                    <h4>Bon Cake</h4>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                    <div class="product-price">
+                        <p>$32.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card cakes" data-order="7">
+                <div class="product-image">
+                    <img src="images/coffee-07.jpg">
+                </div>
+
+                <div class="product-detail">
+                    <h4>Bon Cake</h4>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                    <div class="product-price">
+                        <p>$32.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-card cakes" data-order="8">
+                <div class="product-image">
+                    <img src="images/coffee-08.jpg">
+                </div>
+
+                <div class="product-detail">
+                    <h4>Bon Cake</h4>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                    <div class="product-price">
+                        <p>$32.5</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Products | end -->
+
+
+
+
+    <!-- Our Story | start -->
+    <section class="story" id="story">
+
+        <div class="story-left">
+            <div class="story-column">
+                <img src="images/view-1.jpg">
+                <img src="images/view-02.jpg">
+            </div>
+
+            <div class="story-column">
+                <img src="images/view-1.jpg">
+                <img src="images/view-02.jpg">
+            </div>
+
+            <div class="story-column">
+                <img src="images/view-1.jpg">
+                <img src="images/view-02.jpg">
+            </div>
+        </div>
+
+        <div class="story-right">
+            <h2 class="title">My Daily Expirience In <br>BRAND. Coffee</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Maxime fugit excepturi ipsum explicabo quos voluptas adipisci 
+                veniam voluptatem, doloribus quae nulla deleniti ducimus autem 
+                numquam, magni itaque at, atque rem.
+            </p>
+        </div>
+    </section>
+    <!-- Our Story | end -->
+
+
+
+
+    <!-- Testimonies | start -->
+    <section class="testimoni" id="testimoni">
+        <h2 class="title">Customers Say..</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Corporis esse, laudantium praesentium nihil et fuga hic 
+                    </p>
+
+                    <div class="testimoni-image">
+                        <img src="images/profile-01.png">
+                        <h4>Customer# 1</h4>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Corporis esse, laudantium praesentium nihil et fuga hic 
+                        odio a eaque sed illo libero nostrum molestiae tempora 
+                    </p>
+
+                    <div class="testimoni-image">
+                        <img src="images/profile-02.png">
+                        <h4>Customer# 2</h4>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Corporis esse, laudantium praesentium nihil et fuga hic 
+                        odio a eaque sed illo libero nostrum molestiae tempora 
+                    </p>
+
+                    <div class="testimoni-image">
+                        <img src="images/profile-03.png">
+                        <h4>Customer# 3</h4>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Corporis esse, laudantium praesentium nihil et fuga hic 
+                        odio a eaque sed illo libero nostrum molestiae tempora 
+                    </p>
+
+                    <div class="testimoni-image">
+                        <img src="images/profile-04.png">
+                        <h4>Customer# 4</h4>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Corporis esse, laudantium praesentium nihil et fuga hic 
+                        odio a eaque sed illo libero nostrum molestiae tempora 
+                    </p>
+
+                    <div class="testimoni-image">
+                        <img src="images/profile-05.png">
+                        <h4>Customer# 5</h4>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonies | end  -->
+
+
+
+
+
+    <!-- Footer | start -->
+    <footer>
+        <div class="footer-wrapper">
+            <h2 class="title">Let's  drink your <br> Coffee with Us</h2>
+            <div class="footer-desc">
+                <p>Explore more Drinks</p>
+                <button class="footer-btn btn-type1">Contact Us</button>
+                <button class="footer-btn btn-type2">Products List</button>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="footer-logo">BRAND.</div>
+            <div class="social-media">
+                <a href="#" class="media-icon"><ion-icon name="logo-youtube"></ion-icon></a>
+                <a href="#" class="media-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#" class="media-icon"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#" class="media-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+
+            <div class="copyright">Copyright 2023 appsitnow.com</div>
+        
+    </footer>
+    <!-- Footer | end -->
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- Add filter library for product ** mixitup ** -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+</html>
